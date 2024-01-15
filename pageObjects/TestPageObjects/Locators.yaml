@@ -1,0 +1,33 @@
+#Home Page Locators
+logo_HomePage: '//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]'
+Signin_Button_HomePage: '//android.widget.Button[@resource-id="com.example.myapplication:id/login"]'
+Username_in_HomePage: '//android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]'
+Book_Button_HomePage: '//*[@resource-id="com.example.myapplication:id/book"]'
+
+#Login Page Locators
+logo_Login: '//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView3"]'
+InputEmail_LoginPage: '//android.widget.EditText[@resource-id="com.example.myapplication:id/username"]'
+InputPassword_LoginPage: '//android.widget.EditText[@resource-id="com.example.myapplication:id/password"]'
+Signin_Button_LoginPage: '//android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]'
+
+#Book Page Locators
+FromCity_BookPage: 'id=com.example.myapplication:id/spinnerFrom'
+NewYork_FromCity_BookPage: '//android.widget.TextView[@resource-id="android:id/text1" and @text="New York"]'
+ToCity_BookPage: 'com.example.myapplication:id/spinnerTo'
+Paris_ToCity_BookPage: '//android.widget.TextView[@resource-id="android:id/text1" and @text="Paris"]'
+Class_BookPage: '//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]'
+Economy_Class_BookPage: '//android.widget.TextView[@resource-id="android:id/text1" and @text="Economy"]'
+StartDate_BookPage: '//android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]'
+8Agst_StartDate_BookPage: '//*[@content-desc="08 August 2019"]'
+OK_StartDate_BookPage: '//*[@resource-id="android:id/button1"]'
+EndDate_BookPage: 'com.example.myapplication:id/textEndDate'
+10Agst_EndDate_BookPage: '//*[@content-desc="10 August 2019"]'
+OK_EndDate_BookPage: '//*[@resource-id="android:id/button1"]'
+FlightOption_BookPage: '//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]'
+Book_Button_BookPage: 'com.example.myapplication:id/book_flight'
+
+#Confirmation Book Page Locators
+ConfirmationBookPage: '//android.widget.TextView[@resource-id="com.example.myapplication:id/textView6"]'
+Price_Button: '//*[@resource-id="com.example.myapplication:id/price5"]'
+Confirmation_Button: '//*[@resource-id="com.example.myapplication:id/confirm_order"]'
+ConfirmationMessage: '//android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]'
